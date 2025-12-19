@@ -45,7 +45,7 @@ def getdata(line):
                 "q": f"{line[0]} {line[1]}"
             })
             headers = {
-                'X-API-KEY': '61a601e970a8688773c8a9be5b7e4a1cd0dc1ee6',
+                'X-API-KEY': 'XXXX',
                 'Content-Type': 'application/json'
             }
 
@@ -92,4 +92,5 @@ with open("sample.csv","r") as r:
         # req = client.get(f"https://www.google.com/search?q={line[0]} {line[1]}")
         # print(req)
         # title = scrapy.Selector(text=req.text).xpath('.//*[@class="LC20lb MBeuO DKV0Md"]/text()').extract_first()
+
 
